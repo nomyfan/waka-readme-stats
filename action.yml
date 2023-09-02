@@ -17,6 +17,11 @@ inputs:
     required: false
     default: "waka"
 
+  SECTION_TITLE:
+    description: 'Title used in readme before the section'
+    required: false
+    default: ""
+
   PULL_BRANCH_NAME:
     required: false
     description: "The branch to get the readme from"
